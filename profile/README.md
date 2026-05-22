@@ -28,13 +28,6 @@
     alt="Tennessee Department of Agriculture"
     href="https://www.tn.gov/agriculture.html"
   />
-  <img
-    src="./assets/tdf-logo.png"
-    width="200"
-    height="100"
-    alt="Tennessee Division of Forestry"
-    href="https://www.tn.gov/agriculture/forestry.html"
-  />
 </p>
 
 ## Agriculture + Forestry | GIS + Data
