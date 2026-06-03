@@ -30,11 +30,14 @@
   />
 </p>
 
-## Agriculture + Forestry | GIS + Data
+## Welcome to the TDA GIS Hub
 
-This GitHub space supports GIS, data science, and practical tooling connected to agriculture and forestry work in Tennessee.
+This is the central GitHub space for GIS, data science, and practical tooling supporting the **Tennessee Department of Agriculture (TDA)** and the **Division of Forestry (TDF)**.
 
-The focus is simple: make spatial information easier to understand, keep data workflows reproducible, and turn analysis into tools that support agency decisions.
+Our mission is to:
+- Make spatial information easier to understand.
+- Build clean, reproducible data workflows.
+- Turn analysis into tools that support agency decisions.
 
 ## Public Profile
 
@@ -47,15 +50,34 @@ The focus is simple: make spatial information easier to understand, keep data wo
 | **Website** | [tn.gov/agriculture/](https://www.tn.gov/agriculture.html) |
 |  |  |
 
-## Featured Work
+## Featured Map
 
 <p align="center">
   <img
     src="./assets/recent-map.jpg"
-    alt="Bledsoe State Forest"
+    alt="Chickasaw Ecological Areas"
     width="720"
   />
 </p>
+
+## Featured Repositories
+
+Here are a few of our key projects to get you started.
+
+| Repository | Description |
+| :--- | :--- |
+| **[project-template](https://github.com/tn-dept-ag/project-template)** | Our standard project template for reproducible GIS and data science work. |
+| **[another-repo](https://github.com/tn-dept-ag/another-repo)** | A brief, one-sentence description of what this project does and who it's for. |
+| **[third-repo](https://github.com/tn-dept-ag/third-repo)** | A brief, one-sentence description of what this project does and who it's for. |
+
+## How to Contribute
+
+We welcome contributions and suggestions! The best way to engage is to open an issue to discuss a bug or new idea.
+
+- 📝 **[Suggest a feature or enhancement]**
+- 🐛 **[Report a bug or an error]**
+
+Please review our **[Contributing Guidelines](https://github.com/tn-dept-ag/.github/blob/main/CONTRIBUTING.md)** before opening a pull request.
 
 ## Recent Stories
 
