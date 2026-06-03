@@ -1,6 +1,6 @@
 <p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:1B4332,45:2D6A4F,100:168AAD&text=Agriculture%20Data&fontColor=F8FAFC&fontSize=42&fontAlignY=38&desc=Tennessee%20Department%20of%20Agriculture%20%7C%20Nashville,%20Tennessee%20&descAlignY=58&descSize=16"
+    src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:1B4332,45:2D6A4F,100:168AAD&text=Tennessee%20Department%20of%20Agriculture&fontColor=F8FAFC&fontSize=42&fontAlignY=38&desc=Ellington%20Agricultural%20Center%20%7C%20Nashville,%20Tennessee%20&descAlignY=58&descSize=16"
     alt="Agriculture-Forestry GIS and Data profile banner"
   />
 </p>
