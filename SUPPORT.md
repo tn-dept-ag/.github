@@ -1,19 +1,24 @@
-# Support
+# Getting Support
 
-Use the support path that best matches your need.
+Thank you for using projects from the Tennessee Department of Agriculture. Here’s how to get help.
 
-## Questions And Issues
+## Reporting an Issue
 
-- For bugs or feature requests, open an issue in the relevant repository.
-- For documentation gaps, open an issue or pull request with the missing context.
-- For security concerns, follow [SECURITY.md](SECURITY.md) instead of opening a public issue.
+If you've found a bug, have a feature request, or see a gap in documentation, the best way to get help is to **open an issue** in the specific repository you are using.
 
-## Public Website
+To help us resolve your issue quickly, please include:
 
-For general information about the Tennessee Division of Forestry, visit:
+*   The repository name.
+*   A clear description of the expected behavior.
+*   A clear description of the actual behavior.
+*   Any steps, code, or screenshots needed to reproduce the problem.
 
-<https://www.tn.gov/agriculture/forests.html>
+## Security Vulnerabilities
 
-## Maintainer Notes
+For security concerns, please follow the private reporting process in our [Security Policy](SECURITY.md) instead of opening a public issue.
 
-When reporting a problem, include the repository name, the expected behavior, the actual behavior, and any steps needed to reproduce it.
+## General Inquiries
+
+For general information about the Tennessee Department of Agriculture, please visit our public website:
+
+<https://www.tn.gov/agriculture.html>

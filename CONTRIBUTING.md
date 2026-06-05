@@ -1,31 +1,40 @@
-# Contributing
+# Contributing to TDA Projects
 
-Thanks for helping improve this work. Contributions should make repositories clearer, more reliable, and easier to use.
+Thank you for your interest in contributing to the Tennessee Department of Agriculture's open-source projects! Your help is appreciated. Contributions should make repositories clearer, more reliable, and easier to use.
 
-## Before You Start
+By participating, you are expected to uphold our [Code of Conduct](CODE_OF_CONDUCT.md).
 
-- Check existing issues and pull requests for related work.
-- Open an issue first for larger changes, policy changes, or anything that changes public behavior.
-- Avoid committing credentials, private records, personally identifiable information, or sensitive operational data.
+## How Can I Contribute?
 
-## Pull Requests
+### 🐛 Reporting Bugs or Errors
+If you find a bug, a typo, or an error in the data or documentation, please open a bug report issue. Before submitting, check existing issues to see if someone has already reported it.
 
-When opening a pull request, include:
+### ✨ Suggesting Enhancements
+Have an idea for a new feature, a better map, or an improved workflow? We'd love to hear it. Please open a feature request issue to start a discussion.
 
-- A short summary of what changed.
-- The reason the change is needed.
-- Any tests, checks, screenshots, maps, or sample outputs that help review it.
-- Notes about data sources, assumptions, and limitations.
+### 🔃 Submitting Pull Requests
+If you want to contribute code, documentation, or other changes directly, please follow these steps:
 
-## Data And GIS Changes
+1.  **Open an Issue:** For anything but the most minor fixes (like a typo), please open an issue first to discuss the proposed change. This saves everyone time by making sure we're aligned on the approach.
 
-For data, scripts, maps, or spatial workflows, document:
+2.  **Fork & Branch:** Fork the repository to your own account and create a new branch for your work.
 
-- Source data and update dates.
-- Coordinate reference systems when relevant.
-- Processing steps that affect analysis results.
-- Known limitations, quality concerns, or manual steps.
+3.  **Make Your Changes:** Make your changes, keeping them focused on the issue you are addressing. Avoid committing credentials, private records, or sensitive operational data.
 
-## Review Expectations
+4.  **Open a Pull Request:** When you're ready, open a pull request from your branch to the main branch of the TDA repository. In the pull request description, please include:
+    *   A clear summary of what changed.
+    *   A reference to the issue it resolves (e.g., `Fixes #123`).
+    *   Any tests, checks, screenshots, maps, or sample outputs that help with review.
 
-Maintainers may ask for changes to improve clarity, reproducibility, security, or long-term maintainability. Keep pull requests focused when possible so review stays practical.
+## Guidelines for GIS and Data Changes
+
+For changes involving data, scripts, maps, or spatial workflows, please document the following in your pull request or issue:
+
+*   **Source Data:** Where did the data come from and what is its vintage/update date?
+*   **Projections:** Note the coordinate reference system (CRS) if it's relevant to the change.
+*   **Processing Steps:** Briefly describe any transformations that affect analysis results.
+*   **Limitations:** Note any known quality concerns or manual steps involved.
+
+## Review Process
+
+A repository maintainer will review your contribution. They may ask for changes to improve clarity, reproducibility, security, or long-term maintainability. We appreciate your patience and collaboration during this process.

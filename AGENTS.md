@@ -1,48 +1,19 @@
-# Codex Configuration
+# AI Agent Instructions for the .github Repository
 
-This repository contains organization-level GitHub metadata and shared community
-health files. Keep changes focused, readable, and compatible with GitHub's
-repository-level conventions.
+This special repository holds default community health files and templates for the entire `tn-dept-ag` GitHub organization. Changes made here have a broad impact. Adhere to these guidelines strictly.
 
-# TDF GIS AI Agent Configuration
+## Core Principles
+1.  **Recognize the Scope:** This repository provides the default `README.md`, `CONTRIBUTING.md`, issue templates, and workflow templates for other repositories. Edits should be generic and broadly applicable.
+2.  **Preserve Template Integrity:** When editing templates (e.g., `workflow-templates/*.yml`, `.github/ISSUE_TEMPLATE/*.yml`), maintain valid syntax and structure. Do not add project-specific logic.
+3.  **Prioritize Clarity and Simplicity:** These files will be read by everyone. Use clear language and standard Markdown. Avoid complex or non-standard formatting.
+4.  **No Application Code:** This repository contains configuration and documentation, not application code. Do not add Python scripts, notebooks, or other project-specific files unless the request is to create a new *template*.
 
-This document outlines the standard operating procedures, environmental constraints, and coding standards for AI coding agents (Codex, Cline, Gemini) operating within the Tennessee Division of Forestry (TDF) GIS and Analytics repositories. Adhere to these instructions strictly.
+## File-Specific Guidance
+*   **`workflow-templates/*.yml`**: These are GitHub Actions templates. Ensure changes are syntactically valid YAML and use GitHub Actions expressions correctly. The goal is to create robust, reusable workflows for other projects.
+*   **`.github/ISSUE_TEMPLATE/*.yml`**: These are issue forms. Preserve the YAML structure. Edits should focus on improving the clarity of labels and descriptions for bug reports and feature requests.
+*   **`profile/README.md`**: This is the public-facing README for the entire organization. Changes should be professional and concise.
+*   **Root Markdown Files (`CONTRIBUTING.md`, `SECURITY.md`, etc.)**: These are default policies. Ensure they remain general enough to apply to any repository in the organization.
 
-## Working Guidelines
-
-- Make the smallest, most efficient change that satisfies the request.
-- Preserve existing code architecture, Markdown structure, and wording unless the task explicitly asks for a broader refactoring or cleanup.
-- Prefer plain Markdown and GitHub-supported syntax over custom HTML for documentation.
-- Treat documentation and shared templates as team-wide defaults; avoid unnecessary formatting churn.
-
-## Environment & Tooling Constraints
-
-- **Group Policy Block:** This local workspace environment strictly blocks local shell and PowerShell executions. 
-- **No Terminal Usage:** Do not use shell or terminal commands to verify, preview, inspect, or read back file edits.
-- **Direct File IO:** Rely entirely on direct file-read and file-write tools for repository work.
-- **Assume Success:** After a direct file-write tool reports success, assume the write succeeded. Do not attempt to run a readback command to verify it.
-- **Unseen Context:** If unseen file context is required, ask the user to provide the relevant file contents instead of attempting to use terminal commands to guess or inspect it.
-
-## Validation
-
-- For Markdown-only edits, review the rendered structure mentally and check that links, tables, and heading levels remain valid.
-- When changing GitHub workflow or configuration files, validate syntax using internal tool knowledge.
-- Do not introduce generated artifacts, build outputs, or editor metadata (e.g., `.vscode/` files) unless explicitly requested.
-
-## GIS & Data Handling
-
-- **No Binary Reads:** NEVER attempt to read binary spatial files (e.g., .shp, .gdb, .tif, .gpkg) or large data files (e.g., .csv, .geojson over 1MB) directly into context.
-- **Schema Discovery:** If you need to understand the structure of a dataset, ask the user to provide the schema, or write a short Python script to print the `head()` or `df.info()` and ask the user to run it and paste the output.
-- **Projections:** Assume spatial data operates in standard projections (e.g., EPSG:4326 or standard Tennessee State Plane) unless specified otherwise.
-
-## Script Networking Constraints
-
-- **Corporate Proxy:** All TDF team members operate behind a strict Zscaler corporate proxy.
-- **External Requests:** If writing scripts that make external network requests (e.g., Python's `requests` library, Node's `axios`), explicitly remind the user in your chat output that they may need to configure `verify=False` (for internal testing only) or point the script to their local Zscaler certificate path.
-
-## Coding Standards & Preferences
-
-- **Python:** Prefer `geopandas`, `pandas`, and the `arcgis` (ArcGIS API for Python) libraries for spatial data manipulation. 
-- **Notebooks:** When editing Jupyter Notebooks (`.ipynb`), only modify the exact code cells requested to avoid corrupting the JSON structure.
-- **Node.js:** Use ES6 syntax and prefer native `fetch` over third-party request libraries where possible.
-- **Documentation:** Always include clear, brief inline comments explaining complex spatial logic, projections, or data transformations.
+## Environment Constraints
+*   **No Terminal Usage:** This local workspace environment blocks shell and PowerShell executions. Rely entirely on direct file-read and file-write tools.
+*   **Assume Success:** After a direct file-write tool reports success, assume the write succeeded. Do not attempt to read the file back to verify.

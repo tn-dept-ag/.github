@@ -1,36 +1,30 @@
-# GitHub Defaults
+# GitHub Organization Defaults
 
-This repository centralizes GitHub defaults for repositories under `colin-tndof`.
+Welcome! This special repository centralizes the default community health files and templates for all repositories within the `tn-dept-ag` GitHub organization.
 
-Use it for shared community health files, issue and pull request templates, organization profile content, and reusable workflow templates. Repository-specific files always take precedence over the defaults here.
+The files here provide a consistent baseline for contributions, support, and automation. Repository-specific files will always override these defaults.
 
-## What This Provides
+## What's Inside
 
 | Path | Purpose |
 | --- | --- |
-| [profile/README.md](profile/README.md) | Public organization profile content |
-| [CONTRIBUTING.md](CONTRIBUTING.md) | Default contribution guide |
-| [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) | Default participation expectations |
-| [SECURITY.md](SECURITY.md) | Default vulnerability reporting guidance |
-| [SUPPORT.md](SUPPORT.md) | Default support and contact guidance |
-| [GOVERNANCE.md](GOVERNANCE.md) | Default project stewardship notes |
-| [.github/ISSUE_TEMPLATE](.github/ISSUE_TEMPLATE) | Default issue forms |
-| [.github/PULL_REQUEST_TEMPLATE.md](.github/PULL_REQUEST_TEMPLATE.md) | Default pull request template |
-| [workflow-templates](workflow-templates) | GitHub Actions workflow templates |
+| profile/README.md | The public-facing README for the `tn-dept-ag` organization. |
+| CONTRIBUTING.md | Default guide for how to contribute to our projects. |
+| CODE_OF_CONDUCT.md | Sets participation expectations for a positive community. |
+| SECURITY.md | Instructions for responsibly reporting security vulnerabilities. |
+| SUPPORT.md | Guidance on how to get help and support. |
+| GOVERNANCE.md | Outlines project stewardship and decision-making. |
+| AGENTS.md | Instructions for AI coding assistants interacting with our repos. |
+| .github/ISSUE_TEMPLATE | Default forms for creating new issues (bugs, features). |
+| .github/PULL_REQUEST_TEMPLATE.md | The default template for pull request descriptions. |
+| workflow-templates | Reusable GitHub Actions workflow templates for CI/CD. |
 
 ## How Defaults Work
 
-GitHub uses these files for repositories that do not define their own versions. If a repository needs different instructions, add the file directly to that repository and GitHub will use the repo-local version.
+GitHub automatically uses these files for any repository in the organization that does not have its own version of that file.
 
-Good candidates for repo-local overrides:
+If a project needs specific instructions (e.g., different contribution steps or a unique issue template), simply add the corresponding file to that project's own `.github` folder. The project-specific file will always take precedence.
 
-- Project-specific setup steps.
-- Sensitive data handling rules.
-- Deployment or operational procedures.
-- Custom issue labels, owners, or review requirements.
+## Improving These Defaults
 
-## Profile README Note
-
-The public profile shown for an organization comes from [profile/README.md](profile/README.md) in this repository.
-
-For a personal GitHub profile README, create a separate public repository named exactly `colin-tndof` and put a root `README.md` there.
+Since these files affect all repositories, changes should be broadly applicable. If you have a suggestion to improve a default template or policy, please open an issue or pull request in this repository.

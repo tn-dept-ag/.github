@@ -22,11 +22,10 @@
 
 <p align="center">
   <img
-    src="./assets/tda-logo.png"
+    src="https://raw.githubusercontent.com/tn-dept-ag/.github/main/profile/assets/tda-logo.png"
     width="200"
     height="100"
     alt="Tennessee Department of Agriculture"
-    href="https://www.tn.gov/agriculture.html"
   />
 </p>
 
@@ -39,22 +38,15 @@ Our mission is to:
 - Build clean, reproducible data workflows.
 - Turn analysis into tools that support agency decisions.
 
-## Public Profile
+## Our Work
 
-|  |  |
-| --- | --- |
-| **Contact** | Colin T. Stiles |
-| **Role** | GIS Manager and Data Scientist |
-| **Organization** | Tennessee Department of Agriculture |
-| **Location** | Ellington Agricultural Center, Nashville, Tennessee |
-| **Website** | [tn.gov/agriculture/](https://www.tn.gov/agriculture.html) |
-|  |  |
+This organization is managed by the GIS and data science team at the Tennessee Department of Agriculture. For official inquiries, please visit our [public website](https://www.tn.gov/agriculture.html).
 
 ## Featured Map
 
 <p align="center">
   <img
-    src="./assets/recent-map.jpg"
+    src="https://raw.githubusercontent.com/tn-dept-ag/.github/main/profile/assets/recent-map.jpg"
     alt="Chickasaw Ecological Areas"
     width="720"
   />
@@ -62,20 +54,20 @@ Our mission is to:
 
 ## Featured Repositories
 
-Here are a few of our key projects to get you started.
+Here are a few of our key open-source projects.
 
 | Repository | Description |
 | :--- | :--- |
-| **[project-template](https://github.com/tn-dept-ag/project-template)** | Our standard project template for reproducible GIS and data science work. |
-| **[another-repo](https://github.com/tn-dept-ag/another-repo)** | A brief, one-sentence description of what this project does and who it's for. |
-| **[third-repo](https://github.com/tn-dept-ag/third-repo)** | A brief, one-sentence description of what this project does and who it's for. |
+| **[tda-admin-management](https://github.com/tn-dept-ag/tda-admin-management)** | Our standard project template for reproducible GIS and data science work. |
+| **[tdf-agol-data-backups](https://github.com/tn-dept-ag/tdf-agol-data-backups)** | Scripts to automate daily backups of ArcGIS Online hosted feature layers. |
+| **[.github](https://github.com/tn-dept-ag/.github)** | The central repository for our organization's community health files and templates. |
 
 ## How to Contribute
 
 We welcome contributions and suggestions! The best way to engage is to open an issue to discuss a bug or new idea.
 
-- 📝 **[Suggest a feature or enhancement]**
-- 🐛 **[Report a bug or an error]**
+- 📝 **[Suggest a feature or enhancement](https://github.com/tn-dept-ag/.github/issues/new?assignees=&labels=enhancement&template=feature_request.yml&title=%5BFeature%5D%3A+)**
+- 🐛 **[Report a bug or an error](https://github.com/tn-dept-ag/.github/issues/new?assignees=&labels=bug&template=bug_report.yml&title=%5BBug%5D%3A+)**
 
 Please review our **[Contributing Guidelines](https://github.com/tn-dept-ag/.github/blob/main/CONTRIBUTING.md)** before opening a pull request.
 
@@ -84,6 +76,7 @@ Please review our **[Contributing Guidelines](https://github.com/tn-dept-ag/.git
 - <a href="https://www.tn.gov/agriculture/news/2026/5/5/tennessee-agricutlural-crime-unit-secures-conviction-in-monroe-county-barn-arson-case.html" target="_blank">Tennessee Agricultural Crime Unit Secures Conviction in Monroe County Barn Arson Case</a>
 
 - <a href="https://www.tn.gov/agriculture/news/2026/4/17/tennessee-launches--34-million-hurricane-helene-relief-program-for-farmers-and-forest-landowners.html" target="_blank">Tennessee Launches $34 Million Hurricane-Helene Relief Program for Farmers and Forest Landowners</a>
+
 
 ## Connect
 
