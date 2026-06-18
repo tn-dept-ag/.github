@@ -34,8 +34,9 @@
 This is the central GitHub space for GIS, data science, and practical tooling supporting the **Tennessee Department of Agriculture (TDA)** and the **Division of Forestry (TDF)**.
 
 Our mission is to:
-- Make spatial information easier to understand.
-- Build clean, reproducible data workflows.
+- Support sustainable forestry practices and protect and conserve the natural resources of Tennessee through advanced analytics.
+- Make spatial information easier to understand for both users and the public.
+- Build clean, reproducible data workflows and pipelines.
 - Turn analysis into tools that support agency decisions.
 
 ## Our Work
@@ -58,8 +59,9 @@ Here are a few of our key open-source projects.
 
 | Repository | Description |
 | :--- | :--- |
-| **[tda-admin-management](https://github.com/tn-dept-ag/tda-admin-management)** | Our standard project template for reproducible GIS and data science work. |
-| **[tdf-agol-data-backups](https://github.com/tn-dept-ag/tdf-agol-data-backups)** | Scripts to automate daily backups of ArcGIS Online hosted feature layers. |
+| **[tdf-agol-admin-insights](https://github.com/tn-dept-ag/tdf-agol-admin-insights)** | A Python Notebook pipeline that generates a data table and corresponding dashboards to track the status of AGOL users and licenses, content, and groups. |
+| **[tdf-agol-data-backups](https://github.com/tn-dept-ag/tdf-agol-data-backups)** | Scripts to automate daily backups of AGOL hosted feature layers. |
+| **[tda-template](https://github.com/tn-dept-ag/tda-template)** | Our standard project template for reproducible GIS and data science work |
 | **[.github](https://github.com/tn-dept-ag/.github)** | The central repository for our organization's community health files and templates. |
 
 ## How to Contribute
