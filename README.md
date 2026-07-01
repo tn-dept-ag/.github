@@ -1,6 +1,6 @@
 # GitHub Organization Defaults
 
-Welcome! This special repository centralizes the default community health files and templates for all repositories within the `colinstiles` GitHub.
+Welcome! This special repository centralizes the default community health files and templates for all repositories within the `tn-dept-ag` GitHub organization.
 
 The files here provide a consistent baseline for contributions, support, and automation. Repository-specific files will always override these defaults.
 
@@ -8,7 +8,7 @@ The files here provide a consistent baseline for contributions, support, and aut
 
 | Path | Purpose |
 | --- | --- |
-| profile/README.md | The public-facing README for my page. |
+| profile/README.md | The public-facing README for the `tn-dept-ag` organization. |
 | CONTRIBUTING.md | Default guide for how to contribute to our projects. |
 | CODE_OF_CONDUCT.md | Sets participation expectations for a positive community. |
 | SECURITY.md | Instructions for responsibly reporting security vulnerabilities. |

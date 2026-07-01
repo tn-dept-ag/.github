@@ -1,6 +1,6 @@
 # Getting Support
 
-Thank you for using my projects. Here’s how to get help.
+Thank you for using projects from the Tennessee Department of Agriculture. Here’s how to get help.
 
 ## Reporting an Issue
 
@@ -19,4 +19,4 @@ For security concerns, please follow the private reporting process in our [Secur
 
 ## General Inquiries
 
-You can reach me at `colintimothystiles@gmail.com`
+For general information about the Tennessee Department of Agriculture, please visit our public website: <https://www.tn.gov/agriculture.html>
