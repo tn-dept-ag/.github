@@ -1,6 +1,6 @@
-# TDA GIS AI Agent Configuration
+# AI Agent Configuration
 
-This document defines standard operating procedures, environmental constraints, and coding standards for AI coding agents working in Tennessee Department of Agriculture (TDA) GIS and Analytics repositories.
+This document defines standard operating procedures, environmental constraints, and coding standards for AI coding agents working in Colin's repositories.
 
 These instructions are intended for Codex in VS Code and may also be followed by other coding agents such as Cline or Gemini.
 
@@ -70,7 +70,7 @@ Make the smallest safe change that satisfies the user's request while preserving
 
 ## Script Networking Constraints
 
-- **Corporate Proxy:** TDA team members operate behind a Zscaler corporate proxy.
+- **Corporate Proxy:** This machine operates behind a Zscaler corporate proxy.
 - **External Requests:** When writing scripts that make external network requests, remind the user that they may need to configure the script to trust their local Zscaler certificate path.
 - **TLS Verification:** Do not recommend disabling TLS verification except as a temporary internal troubleshooting step. If mentioned, clearly label `verify=False` or equivalent settings as temporary and not appropriate for production.
 

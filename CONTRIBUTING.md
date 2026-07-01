@@ -1,6 +1,6 @@
 # Contributing to TDA Projects
 
-Thank you for your interest in contributing to the Tennessee Department of Agriculture's open-source projects! Your help is appreciated. Contributions should make repositories clearer, more reliable, and easier to use.
+Thank you for your interest in contributing to my open-source projects! Your help is appreciated. Contributions should make repositories clearer, more reliable, and easier to use.
 
 By participating, you are expected to uphold our [Code of Conduct](CODE_OF_CONDUCT.md).
 

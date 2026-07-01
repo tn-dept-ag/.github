@@ -1,6 +1,6 @@
 # Security Policy
 
-The `tn-dept-ag` team takes security vulnerabilities seriously. We appreciate your efforts to responsibly disclose your findings, and we will make every effort to acknowledge your contributions.
+I take security vulnerabilities seriously. I appreciate your efforts to responsibly disclose your findings, and I will make every effort to acknowledge your contributions.
 
 ## Reporting A Vulnerability
 
@@ -8,7 +8,7 @@ The `tn-dept-ag` team takes security vulnerabilities seriously. We appreciate yo
 
 Instead, please report suspected vulnerabilities, exposed credentials, or sensitive data by emailing the security contact at:
 
-**Colin.Stiles@tn.gov**
+**colintimothystiles@gmail.com**
 
 You may also use GitHub's private vulnerability reporting feature if it is enabled on the repository.
 
