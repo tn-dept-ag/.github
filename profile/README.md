@@ -55,10 +55,11 @@ This organization is managed by the GIS and data science team at the Tennessee D
 
 ## Featured Repositories
 
-Here are a few of our key open-source projects.
+Here are a few of our key public projects.
 
 | Repository | Description |
 | :--- | :--- |
+| **[tda-code-metrics](https://github.com/tn-dept-ag/tda-code-metrics)** | A dashboard that tracks lines of code and commits from TDA's GitHub repositories using `cloc` and `git actions`. |
 | **[tdf-agol-admin-insights](https://github.com/tn-dept-ag/tdf-agol-admin-insights)** | A Python Notebook pipeline that generates a data table and corresponding dashboards to track the status of AGOL users and licenses, content, and groups. |
 | **[tdf-agol-data-backups](https://github.com/tn-dept-ag/tdf-agol-data-backups)** | Scripts to automate daily backups of AGOL hosted feature layers. |
 | **[tda-template](https://github.com/tn-dept-ag/tda-template)** | Our standard project template for reproducible GIS and data science work |
