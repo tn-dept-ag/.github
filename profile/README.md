@@ -1,6 +1,6 @@
 <p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:1B4332,45:2D6A4F,100:168AAD&text=Tennessee%20Department%20of%20Agriculture&fontColor=F8FAFC&fontSize=42&fontAlignY=38&desc=Ellington%20Agricultural%20Center%20%7C%20Nashville,%20Tennessee%20&descAlignY=58&descSize=16"
+    src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:1C1E29,50:63523E,100:CCC6BE&text=Tennessee%20Department%20of%20Agriculture&fontColor=F8FAFC&fontSize=42&fontAlignY=38&desc=Ellington%20Agricultural%20Center%20%7C%20Nashville,%20Tennessee%20&descAlignY=58&descSize=16"
     alt="Agriculture-Forestry GIS and Data profile banner"
   />
 </p>
@@ -10,13 +10,13 @@
     <img alt="GitHub profile" src="https://img.shields.io/badge/GitHub-tn--dept--ag-181717?style=for-the-badge&logo=github" />
   </a>
   <a href="https://www.tn.gov/agriculture.html" target="_blank" rel="noopener noreferrer">
-    <img alt="Tennessee Department of Agriculture" src="https://img.shields.io/badge/Tennessee%20Department%20of%20Agriculture-D22730?style=for-the-badge" />
+    <img alt="Tennessee Department of Agriculture" src="https://img.shields.io/badge/Tennessee%20Department%20of%20Agriculture-1C1E29?style=for-the-badge" />
   </a>
   <a href="https://www.tn.gov/agriculture/forests.html" target="_blank" rel="noopener noreferrer">
-    <img alt="Tennessee Division of Forestry" src="https://img.shields.io/badge/Tennessee%20Division%20of%20Forestry-2D6A4F?style=for-the-badge" />
+    <img alt="Tennessee Division of Forestry" src="https://img.shields.io/badge/Tennessee%20Division%20of%20Forestry-63523E?style=for-the-badge" />
   </a>
   <a href="https://maps.app.goo.gl/KB3dR1aaiX6UwVAy9" target="_blank" rel="noopener noreferrer">
-    <img alt="Ellington Agricultural Center, Tennessee" src="https://img.shields.io/badge/Ellington Agricultural Center-168AAD?style=for-the-badge" />
+    <img alt="Ellington Agricultural Center, Tennessee" src="https://img.shields.io/badge/Ellington Agricultural Center-CCC6BE?style=for-the-badge" />
   </a>
 </p>
 
@@ -31,7 +31,7 @@
 
 ## Welcome to the TDA GIS Hub
 
-This is the central GitHub space for GIS, data science, and practical tooling supporting the **Tennessee Department of Agriculture (TDA)** and the **Division of Forestry (TDF)**.
+This is the central GitHub space for GIS and data science supporting the **Tennessee Department of Agriculture (TDA)** and the **Division of Forestry (TDF)**.
 
 Our mission is to:
 - Support sustainable forestry practices and protect and conserve the natural resources of Tennessee through advanced analytics.
@@ -60,9 +60,7 @@ Here are a few of our key public projects.
 | Repository | Description |
 | :--- | :--- |
 | **[tda-code-metrics](https://github.com/tn-dept-ag/tda-code-metrics)** | A dashboard that tracks lines of code and commits from TDA's GitHub repositories using `cloc` and `git actions`. |
-| **[tdf-agol-admin-insights](https://github.com/tn-dept-ag/tdf-agol-admin-insights)** | A Python Notebook pipeline that generates a data table and corresponding dashboards to track the status of AGOL users and licenses, content, and groups. |
-| **[tdf-agol-data-backups](https://github.com/tn-dept-ag/tdf-agol-data-backups)** | Scripts to automate daily backups of AGOL hosted feature layers. |
-| **[tda-template](https://github.com/tn-dept-ag/tda-template)** | Our standard project template for reproducible GIS and data science work |
+| **[tda-markitdown-helper](https://github.com/tn-dept-ag/tda-markitdown-helper)** | MarkItDown helper app for Streamlit and desktop drag-and-drop conversion. |
 | **[.github](https://github.com/tn-dept-ag/.github)** | The central repository for our organization's community health files and templates. |
 
 ## How to Contribute
@@ -76,15 +74,17 @@ Please review our **[Contributing Guidelines](https://github.com/tn-dept-ag/.git
 
 ## Recent Stories
 
-- <a href="https://www.tn.gov/agriculture/news/2026/5/5/tennessee-agricutlural-crime-unit-secures-conviction-in-monroe-county-barn-arson-case.html" target="_blank">Tennessee Agricultural Crime Unit Secures Conviction in Monroe County Barn Arson Case</a>
+- <a href="https://www.tn.gov/agriculture/news/2026/10/20/tennesseans-encouraged-to-collect-white-oak-acorns-for-reforestation.html" target="_blank">Tennesseans Encouraged to Collect White Oak Acorns for Reforestation</a>
 
-- <a href="https://www.tn.gov/agriculture/news/2026/4/17/tennessee-launches--34-million-hurricane-helene-relief-program-for-farmers-and-forest-landowners.html" target="_blank">Tennessee Launches $34 Million Hurricane-Helene Relief Program for Farmers and Forest Landowners</a>
+- <a href="https://www.tn.gov/agriculture/news/2026/10/8/water-quality-grant-proposals-now-accepted.html" target="_blank">Water Quality Grant Proposals Now Accepted</a>
+
+- <a href="https://www.tn.gov/agriculture/news/2026/10/7/tennesseans-urged-to-follow-fire-prevention-best-practices-during-wildfire-season.html" target="_blank">Tennesseans Urged to Follow Fire Prevention Best Practices During Wildfire Season</a>
 
 
 ## Connect
 
 <p>
-  <a href="https://www.tn.gov/agriculture.html" target="_blank" rel="noopener noreferrer"><img alt="Tennessee Department of Agriculture" src="https://img.shields.io/badge/Tennessee%20Department%20of%20Agriculture-004b8d?style=flat-square"></a>
+  <a href="https://www.tn.gov/agriculture.html" target="_blank" rel="noopener noreferrer"><img alt="Tennessee Department of Agriculture" src="https://img.shields.io/badge/Tennessee%20Department%20of%20Agriculture-1C1E29?style=flat-square"></a>
   <a href="https://www.linkedin.com/company/tnagriculture/" target="_blank" rel="noopener noreferrer"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white"></a>
   <a href="https://x.com/TNAgriculture" target="_blank" rel="noopener noreferrer"><img alt="X" src="https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white"></a>
   <a href="https://www.facebook.com/TNAgriculture" target="_blank" rel="noopener noreferrer"><img alt="Facebook" src="https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white"></a>
