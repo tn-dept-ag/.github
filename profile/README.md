@@ -55,7 +55,7 @@ This organization is managed by the GIS and data science team at the Tennessee D
 
 ## Featured Repositories
 
-Here are a few of our key public projects.
+Here are a few of our public projects.
 
 | Repository | Description |
 | :--- | :--- |
